@@ -1,0 +1,28 @@
+<?php
+?>
+
+ <!DOCTYPE html>
+<html lang="de">
+<head>
+ <title>Page 2</title>
+</head>
+<body>
+
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('header'); ?>
+ <p>Header Page 2</p>
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('main'); ?>
+ <p>Main Page 2</p>
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('footer'); ?>
+ <p>Footer Page 2</p>
+<?php $this->stopSection(); ?>
+
+</body>
+</html>
+
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('examples.layout.m4_7d_layout'); } ?>

@@ -1,0 +1,126 @@
+
+* {
+    font-family: "Chalkboard", sans-serif;
+}
+body {
+    margin: auto;
+    align-content: center;
+    border-width: 1px;
+    border-style: solid;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    background-color: #8b5a2b;
+}
+nav{
+    display: flex;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+nav a {
+    margin: 0 15px 0 15px;
+}
+
+.logo {
+    border: 1px solid black;
+    margin: 10px;
+    width: auto;
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+
+.anfang{
+    padding: 50px;
+}
+
+.text
+{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.speisen {
+    padding: 50px;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+}
+
+.grid-container {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.grid-item {
+    text-align: center;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 200px 200px 300px;
+}
+
+.grid-item2 select {
+    display: block;
+}
+
+.zahlen {
+    padding: 50px;
+}
+
+.kontakt {
+    padding: 50px;
+}
+.button {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.wichtig {
+    padding: 50px;
+}
+.liste {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bottom
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.unten{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.foto{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+main {
+    background-color: blanchedalmond;
+    display: grid;
+}
+footer{
+    background-color: #8b5a2b;
+    color: blanchedalmond;
+}
